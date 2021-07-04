@@ -1,0 +1,48 @@
+<html>
+    <head>
+        <title>Kwiiter</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+        <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js"></script>
+
+        <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-firestore.js"></script>
+        
+        <script src="https://www.gstatic.com/firebasejs/live/3.1/firebase.js"></script>
+        
+        <link href="https://fonts.googleapis.com/css?family=Yeon+Sung&display=swap" rel="stylesheet"><meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+             
+            <link rel="stylesheet" type="text/css" href="kwitter_room.css">
+            <script src="kwitter_room.js"></script>
+        </head>
+<body>
+    <br>
+            <button type="button" id="logout_button" onclick="logout()"> <sup> <img id="logout_button_image" src="logout.png" > </sup> Logout </button>
+            <br>
+            <br>
+            <center>
+            <h1><b>Kwitter</b><sup> <img  id="img_size" src ="live-chat-png-clipart.png"> </sup></h1>
+               <h2><b>Welcome</b></h2>  <h2 id="name_user"></h2>
+            <div id="add_room_div">
+            <h3>Add room</h3>
+            <input type="text" placeholder="#Room name" id="add_room_input">
+            <br>
+            <br>
+            
+            <button id="add_room_button" type="button" onclick="add_room()">#Add Room</button>
+            </div>
+            <br>
+            <h4>Popular Rooms</h4>
+            <div id="popular_rooms_div">
+                
+            </div>
+             </center>
+        </body>
+</html>

@@ -1,0 +1,36 @@
+#h3{
+  font-style: italic;
+}
+
+#img_size{
+   width: 50px;
+   height: 50px;
+   border-radius:50;
+}
+
+#login_div{
+   background-color: rgb(235, 181, 45);
+   padding-top: 20px;
+   border-radius:20px;
+   border-color: black, 10px;
+
+}
+
+#login_input{
+    background-color: rgb(160, 132, 63);
+    border-radius: 10px;
+    border:yellow , 5px;
+    
+    
+}
+
+#login_button{
+    width: 100px;
+    height: 25px;
+    background-color: yellow;
+    border-radius: 10cm;
+}
+
+body{
+    background-color: rgb(135, 184, 2);
+}
